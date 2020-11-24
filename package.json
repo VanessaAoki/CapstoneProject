@@ -1,0 +1,23 @@
+{
+  "name": "CapstoneProject",
+  "version": "1.0.0",
+  "description": "This is the Capstone Project of the HTML &amp; CSS module of the main curriculum of Microverse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanessaAoki/CapstoneProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanessaAoki/CapstoneProject/issues"
+  },
+  "homepage": "https://github.com/VanessaAoki/CapstoneProject#readme",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}
