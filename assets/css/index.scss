@@ -37,6 +37,16 @@ body,
 
 .text-black {color: $black}
 
+.logo {
+    i {font-size: 35px;}
+    p {
+        font-family: flegrei, sans-serif;
+        font-size: 18px;
+        letter-spacing: 0.25px;
+    }
+    .republic {margin-top: -14px;} 
+}
+
 .wrapper {
     header {
         nav {

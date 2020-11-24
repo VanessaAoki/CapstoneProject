@@ -33,6 +33,18 @@ body,
   color: #383838;
 }
 
+.logo i {
+  font-size: 35px;
+}
+.logo p {
+  font-family: flegrei, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+}
+.logo .republic {
+  margin-top: -14px;
+}
+
 .wrapper header nav {
   width: 100vw;
   height: 60px;
