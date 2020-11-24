@@ -37,5 +37,11 @@ body,
   width: 100vw;
   height: 60px;
 }
+.wrapper header nav .fa-rocket {
+  font-size: 0.85em;
+}
+.wrapper header section {
+  width: 100vw;
+}
 
 /*# sourceMappingURL=style.css.map */
