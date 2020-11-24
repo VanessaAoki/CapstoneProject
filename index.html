@@ -51,15 +51,15 @@
 
         <!-- SEARCH FORMS -->
         
-            <section class=" container-fluid bg-red d-flex flex-column align-item-center px-0 m-0">
-                <div class="row d-flex flex-column align-items-center text-light p-0 m-0">
-                    <a href="#" class="row h4 text-decoration-none text-light">LOGO</a>
-                    <p class="row">Your online gaming shop</p>
+            <section class=" container-fluid bg-red d-flex flex-column align-item-center px-0 py-5 m-0">
+                <div class="d-flex flex-column align-items-center text-light p-0 m-0">
+                    <a href="#" class="h4 text-decoration-none text-light m-0">LOGO</a>
+                    <p>Your online gaming shop</p>
                 </div>
 
                 <div class="search-forms input-group d-flex flex-column align-content-center">
                     <div class="input-group-prepend">
-                        <button class="search-dropdown btn btn-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="search-dropdown btn bg-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="text-muted">All departments</span>
                         </button>
                         <div class="dropdown-menu">
@@ -69,20 +69,50 @@
                             <a href="#" class="dropdown-item">Deals</a>
                         </div>
                     </div>
-                    <input type="text" name="search" id="search-input" class="form-control border rounded-0 my-1">
+                    <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1">
                     <input type="text" name="search" id="search-input" class="form-control border rounded-0 m-0 my-1">
                     <button class="btn btn-dark rounded-0 my-1">
                         <a class="text-muted" href="#">Search</a>
                     </button>
                 </div>
-
             </section>
         </header>
 
     <!-- MAIN -->
 
         <main>
+            <section class="hot-ads d-none d-md-flex row">
+                <div class="col-1">
 
+                </div>
+                <div class="col-1 d-flex flex-column justify-content-center">
+                    <button class="border rounded-circle py-1">
+                        <i class="text-red fas fa-chevron-left"></i>
+                    </button>
+                </div>
+                <div class="col-8">
+                    <i class="fas fa-gamepad"></i>
+                    <h5 class="text-uppercase text-grey my-3">
+                        hot games
+                    </h5>
+                    <article class="row">
+                        <div class="media">
+                            <img class="col-6" src="./assets/imgs/cyberpunk.png" alt="Cyberpunk 2077">
+                            <div class="media-body">
+                                <b> Pre-order <i> Cyberpunk 2077</i> now! Available December 10th, 2020.</b>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-1 d-flex flex-column justify-content-center">
+                    <button class="border rounded-circle py-1">
+                        <i class="text-red fas fa-chevron-right align-self-center"></i>
+                    </button>
+                </div>
+                <div class="col-1">
+
+                </div>
+            </section>
         </main>
 
     <!-- FOOTER -->
