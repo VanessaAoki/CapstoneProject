@@ -29,3 +29,12 @@ body,
 
 .bg-black {background-color: $black;}
 
+.wrapper {
+    header {
+        nav {
+            width: 100vw;
+            height: 60px;
+        }
+    }
+}
+
