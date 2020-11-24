@@ -39,10 +39,19 @@ body,
 .logo p {
   font-family: flegrei, sans-serif;
   font-size: 18px;
-  letter-spacing: 0.25px;
 }
 .logo .republic {
   margin-top: -14px;
+}
+
+.logo-main i {
+  font-size: 65px;
+}
+.logo-main p {
+  font-size: 32px;
+}
+.logo-main .republic {
+  margin-top: -27px;
 }
 
 .wrapper header nav {
