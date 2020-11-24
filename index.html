@@ -59,7 +59,7 @@
 
                 <div class="search-forms input-group d-flex flex-column align-content-center">
                     <div class="input-group-prepend">
-                        <button class="search-dropdown btn bg-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="text-muted">All departments</span>
                         </button>
                         <div class="dropdown-menu">
@@ -81,17 +81,19 @@
     <!-- MAIN -->
 
         <main>
-            <section class="hot-ads d-none d-md-flex row">
-                <div class="col-1">
 
+        <!-- HOT ADS -->
+
+            <section class="hot-ads d-none d-md-flex row py-4">
+                <div class="col-1">
+                    <!-- EMPTY SPACE -->
                 </div>
                 <div class="col-1 d-flex flex-column justify-content-center">
-                    <button class="border rounded-circle py-1">
-                        <i class="text-red fas fa-chevron-left"></i>
+                    <button class="border-0 rounded-circle bg-red py-1">
+                        <i class="text-light fas fa-chevron-left my-1"></i>
                     </button>
                 </div>
                 <div class="col-8">
-                    <i class="fas fa-gamepad"></i>
                     <h5 class="text-uppercase text-grey my-3">
                         hot games
                     </h5>
@@ -105,14 +107,34 @@
                     </article>
                 </div>
                 <div class="col-1 d-flex flex-column justify-content-center">
-                    <button class="border rounded-circle py-1">
-                        <i class="text-red fas fa-chevron-right align-self-center"></i>
+                    <button class="border-0 rounded-circle bg-red py-1">
+                        <i class="text-light fas fa-chevron-right align-self-center my-1"></i>
                     </button>
                 </div>
                 <div class="col-1">
-
+                    <!-- EMPTY SPACE -->
                 </div>
             </section>
+        
+        <!-- GAMES -->
+
+            <section class="row container-fluid jumbotron m-0 py-5">
+
+                <!-- NEW RELEASES -->
+
+                <div class="col-11 section-title text-black h6 font-weight-bold text-uppercase border-bottom p-0 pb-1 mx-auto">
+                    <i class="fas fa-gamepad pr-3 m-0"></i>new releases
+                </div>
+                <div>
+                    <div class="media">
+                        <img src="./assets/imgs/new-releases1.webp" alt="Nioh 2">
+                    </div>
+                </div>
+
+                <!-- INDIES -->
+
+            </section>
+
         </main>
 
     <!-- FOOTER -->
