@@ -43,5 +43,17 @@ body,
 .wrapper header section {
   width: 100vw;
 }
+.wrapper footer .social-bottom a {
+  background-color: #d35266;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #d35266;
+  color: white;
+}
+.wrapper footer .social-bottom a:hover {
+  background-color: white;
+  color: #d35266 !important;
+}
 
 /*# sourceMappingURL=style.css.map */

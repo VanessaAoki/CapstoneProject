@@ -48,5 +48,21 @@ body,
             width: 100vw;
         }
     }
+    footer {
+        .social-bottom {
+            a {
+                background-color: $red;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 3px solid $red;
+                color: white;
+            }
+            a:hover {
+                background-color: white;
+                color: $red !important;
+            }
+        }
+    }
 }
 
