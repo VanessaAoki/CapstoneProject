@@ -1,0 +1,31 @@
+// VARIABLES
+// Colors
+
+$red: #d35266;
+$grey: #888;
+$black: #383838;
+
+// Fonts
+
+$heuvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+Helvetica, Arial, "Lucida Grande", sans-serif;
+$gotham: GothamPro;
+
+
+// STYLE
+
+html,
+body,
+.wrapper {
+    width: 100vw;
+    height: auto;
+    font-family: $heuvetica;
+    color: $black;
+}
+
+.bg-red {background-color: $red;}
+
+.bg-grey {background-color: $grey;}
+
+.bg-black {background-color: $black;}
+
