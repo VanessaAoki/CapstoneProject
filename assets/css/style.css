@@ -43,9 +43,5 @@ body,
 .wrapper header section {
   width: 100vw;
 }
-.wrapper header section .search-forms input,
-.wrapper header section .search-forms .search-dropdown {
-  width: 90vw;
-}
 
 /*# sourceMappingURL=style.css.map */
