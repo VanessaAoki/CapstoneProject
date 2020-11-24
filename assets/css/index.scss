@@ -21,6 +21,8 @@ body,
     height: auto;
     font-family: $heuvetica;
     color: $black;
+    padding: 0;
+    margin: 0;
 }
 
 .bg-red {background-color: $red;}
@@ -28,6 +30,12 @@ body,
 .bg-grey {background-color: $grey;}
 
 .bg-black {background-color: $black;}
+
+.text-red {color: $red;}
+
+.text-grey {color: $grey;}
+
+.text-black {color: $black}
 
 .wrapper {
     header {

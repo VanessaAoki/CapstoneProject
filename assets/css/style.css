@@ -5,6 +5,8 @@ body,
   height: auto;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #383838;
+  padding: 0;
+  margin: 0;
 }
 
 .bg-red {
@@ -17,6 +19,23 @@ body,
 
 .bg-black {
   background-color: #383838;
+}
+
+.text-red {
+  color: #d35266;
+}
+
+.text-grey {
+  color: #888;
+}
+
+.text-black {
+  color: #383838;
+}
+
+.wrapper header nav {
+  width: 100vw;
+  height: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
