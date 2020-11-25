@@ -73,6 +73,10 @@ body,
   color: #d35266 !important;
 }
 
+.search-arrows a {
+  color: #d35266;
+}
+
 .wrapper header nav {
   width: 100vw;
   height: 65px;
@@ -94,6 +98,16 @@ body,
 .wrapper footer .social-bottom a:hover {
   background-color: white;
   color: #d35266 !important;
+}
+
+.page-link {
+  color: #888 !important;
+  font-weight: 700;
+}
+
+.page-link:hover {
+  color: white !important;
+  background-color: #d35266 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

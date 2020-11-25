@@ -20,8 +20,8 @@
 
         <!-- FIXED NAVBAR -->
 
-            <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 fixed-navbar">
-                <ul class="col-lg-8 nav container-fluid d-flex justify-content-around align-items-center p-0">
+            <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 px-lg-5 fixed-navbar">
+                <ul class="col-lg-8 nav container-fluid d-flex justify-content-around lg-justify-content-between align-items-center p-0">
                     <li class="nav-item p-0 m-0 mt-2">
                         <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
                             <i class="fas fa-jedi"></i>
@@ -33,44 +33,44 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-red text-uppercase pb-3" href="#">
-                            <i class="fas fa-rocket"></i> home
+                            <i class="mr-2 fas fa-rocket"></i>home
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
-                            <i class="fas fa-journal-whills"></i> collection
+                            <i class="mr-2 fas fa-journal-whills"></i>collection
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
-                            <i class="fas fa-dolly"></i> purchase list
+                            <i class="mr-2 fas fa-dolly"></i>purchase list
                         </a>
                     </li>
                     <li class="d-none d-lg-block nav-item">
-                        <button class="btn btn-red text-light text-uppercase rounded-0 px-4">
+                        <button class="btn btn-red text-light text-uppercase font-weight-bold px-4">
                             post an ad
                         </button>
                     </li>
                 </ul>
-                <div class="container-fluid col-2 d-flex justify-content-end align-items-center p-0 mt-2 pr-4 mx-lg-5">
+                <div class="container-fluid col-2 col-lg-4 d-flex justify-content-end align-items-center p-0 mt-2 pr-4 mx-lg-5">
                     <i class="d-none d-lg-block text-grey h4 fas fa-comments-dollar"></i>
                     <a class="text-light lg-font-weight-bolder mr-2 mx-lg-4" href="#">John Doe</a>
                     <i class="text-grey lg-h4 border rounded-circle p-1 bg-light fas fa-user-astronaut"></i>
                 </div>
             </nav>
 
-        <!-- SEARCH -->
+        <!-- SEARCH FORMS -->
 
             <section class="container-fluid bg-red d-flex flex-column align-item-center px-0 py-4 m-0">
-                <div class="d-flex flex-column align-items-center text-light p-0 m-0">
-                    <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main" href="#">
+                <div class="col-lg-10 mx-lg-auto d-flex flex-column align-items-start text-light p-0 m-0 p-lg-3">
+                    <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main p-lg-0" href="#">
                         <i class="fas fa-jedi"></i>
                         <div class="logo-text">
                             <p class="ml-2 py-0 m-0">gamer</p>
                             <p class="ml-2 republic">republic</p>
                         </div>                            
                     </a>
-                    <p class="pb-1">Your online gaming shop</p>
+                    <p class="pb-1 m-0">Your online gaming shop</p>
                 </div>
 
                 <div class="search-forms col-10 row input-group d-flex justify-content-center m-0 mx-auto">
@@ -96,61 +96,80 @@
 
     <!-- MAIN -->
     
-        <section class="main-search-container container-fluid row m-0 p-0">
+        <section class="main-search-container container-fluid row m-0 py-0 px-5">
 
         <!-- ASIDE -->
 
-            <aside class="search-filters d-none col-lg-2 d-lg-flex flex-column container-fluid m-0 p-0 mt-3 pl-5">
+            <aside class="search-filters d-none col-lg-2 d-lg-flex flex-column container-fluid m-0 py-3 px-5">
                 <section class="used-new d-flex justify-content-between">
                     <div class="custom-radio">
                         <input type="radio" name="filters" id="filters">
-                        <label for="filters1">Used</label>
+                        <label class="pl-2 text-grey" for="filters1">Used</label>
                     </div>
                     <div class="custom-radio">
                         <input type="radio" name="filters" id="filters">
-                        <label for="filters1">New</label>
+                        <label class="pl-2 text-grey" for="filters1">New</label>
                     </div>
                 </section>
-                <section class="category">
-                    <div class="custom-radio">
-                        <input type="radio" name="filters1" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                    <div class="custom-radio">
-                        <input type="radio" name="filters1" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                    <div class="custom-radio">
-                        <input type="radio" name="filters1" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                </section>
-                <section class="price-range">
-                    <div class="custom-radio">
-                        <input type="radio" name="filters2" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                    <div class="custom-radio">
-                        <input type="radio" name="filters2" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                    <div class="custom-radio">
-                        <input type="radio" name="filters2" id="filters">
-                        <label for="filters1"></label>
-                    </div>
-                    <div class="custom-radio">
-                        <input type="radio" name="filters2" id="filters">
-                        <label for="filters1"></label>
-                    </div>
 
+                <section class="category py-3">
+                    <p class="row border-bottom font-weight-bold ml-0 pb-1">Category</p>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters1" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">New Releases</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters1" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">Hot & Trending</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters1" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">Best Selling</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters1" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">Indie</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters1" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">Deals</label>
+                    </div>
+                </section>
+
+                <section class="price-range py-3">
+                    <p class="row border-bottom font-weight-bold ml-0 pb-1">Price Range</p>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$0.99 - $9.99</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$9.99 - $19-99</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$19.99 - $29-99</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$29.99 - $39-99</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$39.99 - $49-99</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" name="filters2" id="filters">
+                        <label class="pl-2 text-grey" for="filters1">$49-99 + </label>
+                    </div>
                 </section>
             </aside>
 
         <!-- MAIN SEARCH -->
 
             <section class="main-search-results-container container-fluid col-lg-10 border-left border-right p-0 m-0">
-                <div class="row col-12 text-grey p-2 m-0">
-                    <b class="mx-1">10</b> Results for <b class="mx-1">"FPS"</b> Search in Catergory <b class="mx-1">Best Selling</b> 
+                <div class="row col-12 text-grey p-3 m-0">
+                    <b class="mx-1">25</b> Results for <b class="mx-1">"FPS"</b> Search in Catergory <b class="mx-1">Best Selling</b> 
                 </div>
 
             <!-- SEARCH RESULTS -->
@@ -159,16 +178,209 @@
 
                 <!-- COD -->
 
-                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3">
-                        <div class="col-4 d-flex justify-content-end search-img-container position-relative p-0">
-                            <div class="search-arrows position-absolute align-self-end bg-black text-red p-0 m-0 mr-5">
-                                <p class="m-0 p-0"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-right"></i></p>
+                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3 mb-2">
+                        <div class="col-4 d-flex justify-content-end search-img-container position-relative py-0 px-3">
+                            <div class="search-arrows position-absolute align-self-end bg-black  m-0 p-0">
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-left"></i></a>
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-right"></i></a>
                             </div>
-                            <img class="col" src="./assets/imgs/search1.jpg" alt="COD: Black Ops Cold War">
+                            <img class="col m-0 p-0 " src="./assets/imgs/search1 .jpg" alt="COD: Black Ops Cold War">
+                        </div>
+                        <div class="media-body my-2 py-0 pr-4">
+                            <div class="d-flex justify-content-between align-items-center py-1">
+                                <h5 class="text-black font-weight-bolder m-0">
+                                    Call of Duty: Black Ops Cold War
+                                </h5>
+                                <i class="add-icon border p-2 m-0 text-secondary fas fa-plus"></i>
+                            </div>
+                            <p class="text-red font-weight-bold">
+                                Release year: 2020
+                            </p>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, totam.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="text-grey m-0">
+                                    <b>Platforms:</b><i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>
+                                </p>
+                                <button class="btn btn-red font-weight-bold text-light rounded-0 py-1 px-3 m-0">
+                                    $59.99
+                                </button>
+                            </div>
                         </div>
                         
 
                     </div>
+
+                <!-- BIOSHOCK -->
+
+                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3 mb-2">
+                        <div class="col-4 d-flex justify-content-end search-img-container position-relative py-0 px-3">
+                            <div class="search-arrows position-absolute align-self-end bg-black  m-0 p-0">
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-left"></i></a>
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-right"></i></a>
+                            </div>
+                            <img class="col m-0 p-0 " src="./assets/imgs/search2.jpg" alt="Bioshock">
+                        </div>
+                        <div class="media-body my-2 py-0 pr-4">
+                            <div class="d-flex justify-content-between align-items-center py-1">
+                                <h5 class="text-black font-weight-bolder m-0">
+                                    Bioshock: The Collection
+                                </h5>
+                                <i class="add-icon border p-2 m-0 text-secondary fas fa-plus"></i>
+                            </div>
+                            <p class="text-red font-weight-bold">
+                                Release year: 2020
+                            </p>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, totam.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="text-grey m-0">
+                                    <b>Platforms:</b><i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>
+                                </p>
+                                <button class="btn btn-red font-weight-bold text-light rounded-0 py-1 px-3 m-0">
+                                    $11.99
+                                </button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                <!-- METRO -->
+
+                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3 mb-2">
+                        <div class="col-4 d-flex justify-content-end search-img-container position-relative py-0 px-3">
+                            <div class="search-arrows position-absolute align-self-end bg-black  m-0 p-0">
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-left"></i></a>
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-right"></i></a>
+                            </div>
+                            <img class="col m-0 p-0 " src="./assets/imgs/search3.jpg" alt="Metro Exodus">
+                        </div>
+                        <div class="media-body my-2 py-0 pr-4">
+                            <div class="d-flex justify-content-between align-items-center py-1">
+                                <h5 class="text-black font-weight-bolder m-0">
+                                    Metro Exodus
+                                </h5>
+                                <i class="add-icon border p-2 m-0 text-secondary fas fa-plus"></i>
+                            </div>
+                            <p class="text-red font-weight-bold">
+                                Release year: 2020
+                            </p>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, totam.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="text-grey m-0">
+                                    <b>Platforms:</b><i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>
+                                </p>
+                                <button class="btn btn-red font-weight-bold text-light rounded-0 py-1 px-3 m-0">
+                                    $15.99
+                                </button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                <!-- SUPERHOT -->
+
+                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3 mb-2">
+                        <div class="col-4 d-flex justify-content-end search-img-container position-relative py-0 px-3">
+                            <div class="search-arrows position-absolute align-self-end bg-black  m-0 p-0">
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-left"></i></a>
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-right"></i></a>
+                            </div>
+                            <img class="col m-0 p-0 " src="./assets/imgs/search4.jpg" alt="Superhot">
+                        </div>
+                        <div class="media-body my-2 py-0 pr-4">
+                            <div class="d-flex justify-content-between align-items-center py-1">
+                                <h5 class="text-black font-weight-bolder m-0">
+                                    SUPERHOT
+                                </h5>
+                                <i class="add-icon border p-2 m-0 text-secondary fas fa-plus"></i>
+                            </div>
+                            <p class="text-red font-weight-bold">
+                                Release year: 2020
+                            </p>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, totam.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="text-grey m-0">
+                                    <b>Platforms:</b><i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>
+                                </p>
+                                <button class="btn btn-red font-weight-bold text-light rounded-0 py-1 px-3 m-0">
+                                    $9.99
+                                </button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                <!-- DEUS EX -->
+
+                    <div class="row col-12 container-fluid media d-flex border-top border-bottom m-0 px-0 py-3 mb-2">
+                        <div class="col-4 d-flex justify-content-end search-img-container position-relative py-0 px-3">
+                            <div class="search-arrows position-absolute align-self-end bg-black  m-0 p-0">
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-left"></i></a>
+                                <a class="m-0 px-2 position-relative" href="#"><i class="p-0 my-1 fas fa-chevron-right"></i></a>
+                            </div>
+                            <img class="col m-0 p-0 " src="./assets/imgs/search5.jpg" alt="Deus EX">
+                        </div>
+                        <div class="media-body my-2 py-0 pr-4">
+                            <div class="d-flex justify-content-between align-items-center py-1">
+                                <h5 class="text-black font-weight-bolder m-0">
+                                    Deus EX: Mankind Divided
+                                </h5>
+                                <i class="add-icon border p-2 m-0 text-secondary fas fa-plus"></i>
+                            </div>
+                            <p class="text-red font-weight-bold">
+                                Release year: 2020
+                            </p>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, totam.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="text-grey m-0">
+                                    <b>Platforms:</b><i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>
+                                </p>
+                                <button class="btn btn-red font-weight-bold text-light rounded-0 py-1 px-3 m-0">
+                                    $11.99
+                                </button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                <!-- PAGINATION -->
+                    
+                    <ul class="pagination d-flex justify-content-center py-3">
+                        <li class="page-item">
+                            <a href="#!" class="page-link">&laquo;</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#!" class="page-link">&raquo;</a>
+                        </li>
+                    </ul>
 
                 </section>
             </section>
