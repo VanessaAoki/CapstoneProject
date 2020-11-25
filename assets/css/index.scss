@@ -71,6 +71,13 @@ body,
     a {color: $red;}
 }
 
+.author {color: $grey}
+
+.author:hover {
+    text-decoration: none;
+    color: $red;
+}
+
 // MAIN
 
 .wrapper {
@@ -113,3 +120,7 @@ body,
     color: white !important;
     background-color: $red !important;
 }
+
+// GENERAL
+
+a:hover {color: $red !important;}
