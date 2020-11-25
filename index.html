@@ -20,8 +20,8 @@
 
         <!-- FIXED NAVBAR -->
 
-            <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 fixed-navbar">
-                <ul class="nav container-fluid d-flex justify-content-around align-items-center p-0">
+            <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 px-lg-5 fixed-navbar">
+                <ul class="col-lg-8 nav container-fluid d-flex justify-content-around lg-justify-content-between align-items-center p-0">
                     <li class="nav-item p-0 m-0 mt-2">
                         <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
                             <i class="fas fa-jedi"></i>
@@ -33,25 +33,30 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-red text-uppercase pb-3" href="#">
-                            <i class="fas fa-rocket"></i> home
+                            <i class="mr-2 fas fa-rocket"></i>home
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
-                            <i class="fas fa-journal-whills"></i> collection
+                            <i class="mr-2 fas fa-journal-whills"></i>collection
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
-                            <i class="fas fa-dolly"></i> purchase list
+                            <i class="mr-2 fas fa-dolly"></i>purchase list
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <button class="btn btn-red text-light text-uppercase rounded-0 px-4">
+                    <li class="d-none d-lg-block nav-item">
+                        <button class="btn btn-red text-light text-uppercase font-weight-bold px-4">
                             post an ad
                         </button>
                     </li>
                 </ul>
+                <div class="container-fluid col-2 col-lg-4 d-flex justify-content-end align-items-center p-0 mt-2 pr-4 mx-lg-5">
+                    <i class="d-none d-lg-block text-grey h4 fas fa-comments-dollar"></i>
+                    <a class="text-light lg-font-weight-bolder mr-2 mx-lg-4" href="#">John Doe</a>
+                    <i class="text-grey lg-h4 border rounded-circle p-1 bg-light fas fa-user-astronaut"></i>
+                </div>
             </nav>
 
         <!-- SEARCH FORMS -->
@@ -68,21 +73,22 @@
                     <p class="pb-1">Your online gaming shop</p>
                 </div>
 
-                <div class="search-forms col-10 row input-group d-flex justify-content-center m-0 mx-auto">
+                <div class="search-forms col-9 row input-group d-flex justify-content-center m-0 mx-auto">
                     <div class="input-group-prepend">
-                        <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1 mr-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="text-muted">All departments</span>
                         </button>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">New Releases</a>
+                            <a href="#" class="dropdown-item">Best Selling</a>
                             <a href="#" class="dropdown-item">Hot & Trending</a>
                             <a href="#" class="dropdown-item">Indie Games</a>
                             <a href="#" class="dropdown-item">Deals</a>
                         </div>
                     </div>
-                    <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1">
-                    <input type="text" name="search" placeholder="Game name" id="search-input" class="form-control border rounded-0 m-0 my-1">
-                    <button class="btn btn-dark rounded-0 my-1">
+                    <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1 mr-1">
+                    <input type="text" name="search" placeholder="Game name" id="search-input" class="form-control border rounded-0 m-0 my-1 mr-1">
+                    <button class="btn btn-dark rounded-0 my-1 ml-2">
                         <a class="text-muted px-4" href="./search.html">Search</a>
                     </button>
                 </div>
@@ -98,7 +104,7 @@
             <section class="hot-ads d-none d-md-flex row p-0 m-0 py-4">
                 <section class="hot-title row col-12">
                     <div class="col-2"></div>
-                    <h6 class="text-uppercase col-8 font-weight-bolder text-grey mb-3">
+                    <h6 class="text-uppercase col font-weight-bolder text-grey mb-3 ml-1">
                         hot games
                     </h6>
                 </section>
@@ -106,27 +112,65 @@
                     <!-- EMPTY SPACE -->
                 </div>
                 
-                <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                    <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                        <i class="text-light fas fa-chevron-left"></i>
-                    </button>
-                </div>
-
-                <div class="col-8">
-                    <article class="row">
-                        <div class="media">
-                            <img class="col-5" src="./assets/imgs/cyberpunk2077.jpg" alt="Cyberpunk 2077">
-                            <div class="media-body">
-                                <b> Pre-order <i> Cyberpunk 2077</i> now! Available December 10th, 2020.</b>
-                            </div>
+                <div class="carousel slide d-none d-md-flex col" id="hotads" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <article class="row col-10 d-flex w-100 mx-auto">
+                                <img class="col-4" src="./assets/imgs/bestselling4.png" alt="Cyberpunk 2077">
+                                <div class="col d-flex flex-column py-3">
+                                    <p class="pre-order h5 text-center py-2 mb-4"><b> Pre-order </b><i> Cyberpunk 2077 </i><b> now! Available December 10th, 2020</b></p>
+                                    <a class="h3 text-red font-weight-bolder">Cyberpunk 2077</a>
+                                    <p class="font-weight-bolder text-grey">Pre-Order</p>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quas dolorum obcaecati eius eum deserunt fuga commodi molestiae porro facere!
+                                    </p>
+                                    <p class="py-4 mt-3">
+                                        Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i>
+                                    </p>
+                                    <div class="input-group m-0 p-0">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-left">$59.99</button>
+                                        </div>
+                                        <div class="input-group-postpend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-right"><i class="mr-2 fas fa-cart-arrow-down"></i> Purchase Details</button>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </article>
                         </div>
-                    </article>
-                </div>
-
-                <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-                    <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                        <i class="text-light fas fa-chevron-right align-self-center"></i>
-                    </button>
+                        <div class="carousel-item media">
+                            <article class="row col-10 d-flex w-100 mx-auto">
+                                <img class="col-4" src="./assets/imgs/search1 .jpg" alt="Cyberpunk 2077">
+                                <div class="col d-flex flex-column py-3">
+                                    <a class="h3 text-red font-weight-bolder">Call of Duty: Black Ops Cold War</a>
+                                    <p class="font-weight-bolder text-grey">Out now</p>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quas dolorum obcaecati eius eum deserunt fuga commodi molestiae porro facere!
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo voluptatibus expedita, atque iusto ab amet impedit temporibus maiores autem. Ut quam quis eos nam quaerat doloribus assumenda totam rerum facere, ratione laudantium adipisci iste alias impedit provident voluptatibus omnis!
+                                    </p>
+                                    <p class="py-4 mt-3">
+                                        Platforms:<i class="border-right fab fa-windows px-2"></i><i class="border-right fab fa-xbox px-2"></i><i class="fab fa-playstation px-2"></i>
+                                    </p>
+                                    <div class="input-group m-0 p-0">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-left">$59.99</button>
+                                        </div>
+                                        <div class="input-group-postpend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-right"><i class="mr-2 fas fa-cart-arrow-down"></i> Purchase Details</button>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#hotads" role="button" data-slide="prev">
+                        <span class="arrow-button"><i class="p-2 text-light fas fa-chevron-left"></i></span>
+                    </a>
+                    <a class="carousel-control-next" href="#hotads" role="button" data-slide="next">
+                        <span class="arrow-button"><i class="p-2 text-light fas fa-chevron-right"></i></span>
+                    </a>
                 </div>
 
                 <div class="col-1">
@@ -147,9 +191,9 @@
 
                 <div class="row col-12 mx-0 p-0 my-3">
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-left"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
                     </div>
                 
                 <!-- NIOH -->
@@ -217,9 +261,9 @@
                     </div>
                 
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-right align-self-center"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -234,9 +278,9 @@
 
                 <div class="row col-12 mx-0 p-0 my-3">
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-left"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
                     </div>
                 
                 <!-- HITMAN -->
@@ -304,9 +348,9 @@
                     </div>
                 
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-right align-self-center"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -321,9 +365,9 @@
 
                 <div class="row col-12 mx-0 p-0 my-3">
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-left"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
                     </div>
                 
                 <!-- AMONG US -->
@@ -333,7 +377,7 @@
                             <img src="./assets/imgs/indie1.png" alt="Among Us" class="col-12 p-0 m-0 pb-3">
                         </div>                    
                         <h5 class="font-weight-bolder px-3">Among Us</h5>
-                        <p class="px-3">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                  
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                  
                         <section class="row col d-block pb-3 m-0">
                             <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
                                 <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
@@ -349,7 +393,7 @@
                             <img src="./assets/imgs/indie2.png" alt="Hades" class="col-12 p-0 m-0 pb-3">
                         </div>                        
                         <h5 class="font-weight-bolder px-3">Hades</h5>
-                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
                         <section class="row col d-block pb-3 m-0">
                             <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
                                 <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
@@ -365,7 +409,7 @@
                             <img src="./assets/imgs/indie3.jpg" alt="Fall Guys" class="col-12 p-0 m-0 pb-3">
                         </div>                        
                         <h5 class="font-weight-bolder px-3">Fall Guys</h5>
-                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
                         <section class="row col d-block pb-3 m-0">
                             <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
                                 <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
@@ -381,7 +425,7 @@
                             <img src="./assets/imgs/indie4.png" alt="Hollow Knight" class="col-12 p-0 m-0 pb-3">
                         </div>                        
                         <h5 class="font-weight-bolder px-3">Hollow Knight</h5>
-                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
                         <section class="row col d-block pb-3 m-0">
                             <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
                                 <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
@@ -391,9 +435,9 @@
                     </div>
                 
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
-                        <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
-                            <i class="text-light fas fa-chevron-right align-self-center"></i>
-                        </button>
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -457,6 +501,40 @@
                             <a href="#" class="nav-link text-grey p-0 pb-1">Darkest Dungeon</a>
                         </li>    
                     </ul>
+                    <ul class="nav col d-none d-lg-flex flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">FPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Call of Duty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Bioshock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">SUPERHOT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Deus EX</a>
+                        </li>    
+                    </ul>
+                    <ul class="nav col d-none d-lg-flex flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">Strategy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Rimworld</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Factorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Frostpunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Into The Breach</a>
+                        </li>    
+                    </ul>
                     <ul class="nav col d-flex flex-column">
                         <li class="nav-item">
                             <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">Indie</a>
@@ -489,7 +567,7 @@
             </section>
             <section class="row col-12 border-top p-0 m-0 mt-3">
                 <p class="text-muted pt-3 mx-auto text-small">
-                    Made with <i class="text-red fas fa-heart"></i> by Vanessa Aoki.
+                    Made with <i class="mx-1 text-red fas fa-heart"></i> by <a class="author" href="https://github.com/VanessaAoki"> Vanessa Aoki</a>
                 </p>
                 </section>
         </footer>

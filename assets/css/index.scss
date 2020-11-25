@@ -71,11 +71,48 @@ body,
     a {color: $red;}
 }
 
+.pre-order {
+    border: 2px solid $red;
+    background-color: #d352650c;
+}
+
 .author {color: $grey}
 
 .author:hover {
     text-decoration: none;
     color: $red;
+}
+
+.social-bottom {
+    a {
+        background-color: $red;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 3px solid $red;
+        color: white;
+    }
+    a:hover {
+        background-color: white;
+        color: $red !important;
+    }
+}
+
+.arrow-button {
+    a,
+    i {
+        background-color: $red;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 3px solid $red;
+        color: white;
+    }
+    a:hover,
+    i:hover {
+        background-color: white;
+        color: $red !important;
+    }
 }
 
 // MAIN
@@ -89,22 +126,6 @@ body,
         }
         section {
             width: 100vw;
-        }
-    }
-    footer {
-        .social-bottom {
-            a {
-                background-color: $red;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-                border: 3px solid $red;
-                color: white;
-            }
-            a:hover {
-                background-color: white;
-                color: $red !important;
-            }
         }
     }
 }
