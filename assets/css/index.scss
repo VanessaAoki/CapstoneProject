@@ -43,6 +43,10 @@ body,
     margin-top: -10px;
 }
 
+.fixed-navbar {z-index: 100;}
+
+.search-arrows {z-index: 1;}
+
 .logo {
     i {font-size: 35px;}
     p {
