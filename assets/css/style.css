@@ -34,6 +34,11 @@ body,
   color: #383838;
 }
 
+.btn-red {
+  background-color: #d35266 !important;
+  margin-top: -10px;
+}
+
 .logo i {
   font-size: 35px;
 }

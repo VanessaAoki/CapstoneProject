@@ -38,6 +38,11 @@ body,
 
 .text-black {color: $black}
 
+.btn-red {
+    background-color: $red !important;
+    margin-top: -10px;
+}
+
 .logo {
     i {font-size: 35px;}
     p {
