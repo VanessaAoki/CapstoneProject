@@ -23,6 +23,7 @@ body,
     color: $black;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .bg-red {background-color: $red;}
@@ -52,11 +53,16 @@ body,
     .republic {margin-top: -27px;} 
 }
 
+.add-icon:hover {
+    background-color: $black;
+    color: $red !important;
+}
+
 .wrapper {
     header {
         nav {
             width: 100vw;
-            height: 60px;
+            height: 65px;
             .fa-rocket {font-size: 0.85em;}
         }
         section {

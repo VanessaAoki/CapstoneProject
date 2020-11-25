@@ -7,6 +7,7 @@ body,
   color: #383838;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .bg-red {
@@ -54,9 +55,14 @@ body,
   margin-top: -27px;
 }
 
+.add-icon:hover {
+  background-color: #383838;
+  color: #d35266 !important;
+}
+
 .wrapper header nav {
   width: 100vw;
-  height: 60px;
+  height: 65px;
 }
 .wrapper header nav .fa-rocket {
   font-size: 0.85em;

@@ -20,9 +20,9 @@
 
         <!-- FIXED NAVBAR -->
 
-            <nav class="bg-black top-fixed d-flex justify-content-between p-0 m-0 fixed-navbar">
+            <nav class="bg-black top-fixed d-flex justify-content-around p-0 m-0 fixed-navbar">
                 <ul class="nav container-fluid d-flex justify-content-around align-items-center p-0">
-                    <li class="nav-item p-0 m-0">
+                    <li class="nav-item p-0 m-0 mt-2">
                         <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
                             <i class="fas fa-jedi"></i>
                             <div class="logo-text">
@@ -32,22 +32,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-decoration-none text-red text-uppercase" href="#">
+                        <a class="nav-link text-decoration-none text-red text-uppercase pb-3" href="#">
                             <i class="fas fa-rocket"></i> home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-decoration-none text-grey text-uppercase" href="#">
+                        <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
                             <i class="fas fa-journal-whills"></i> collection
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-decoration-none text-grey text-uppercase" href="#">
+                        <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
                             <i class="fas fa-dolly"></i> purchase list
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-decoration-none text-red text-uppercase d-none d-lg-block" href="#">
+                        <a class="nav-link text-decoration-none text-red text-uppercase pb-3 d-none d-lg-block" href="#">
                             LOGO
                         </a>
                     </li>
@@ -56,7 +56,7 @@
 
         <!-- SEARCH FORMS -->
         
-            <section class=" container-fluid bg-red d-flex flex-column align-item-center px-0 py-5 m-0">
+            <section class=" container-fluid bg-red d-flex flex-column align-item-center px-0 py-4 m-0">
                 <div class="d-flex flex-column align-items-center text-light p-0 m-0">
                     <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main" href="#">
                         <i class="fas fa-jedi"></i>
@@ -65,10 +65,10 @@
                             <p class="ml-2 republic">republic</p>
                         </div>                            
                     </a>
-                    <p>Your online gaming shop</p>
+                    <p class="pb-1">Your online gaming shop</p>
                 </div>
 
-                <div class="search-forms input-group d-flex justify-content-center">
+                <div class="search-forms col-10 row input-group d-flex justify-content-center m-0 mx-auto">
                     <div class="input-group-prepend">
                         <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="text-muted">All departments</span>
@@ -81,9 +81,9 @@
                         </div>
                     </div>
                     <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1">
-                    <input type="text" name="search" id="search-input" class="form-control border rounded-0 m-0 my-1">
+                    <input type="text" name="search" placeholder="Game name" id="search-input" class="form-control border rounded-0 m-0 my-1">
                     <button class="btn btn-dark rounded-0 my-1">
-                        <a class="text-muted" href="#">Search</a>
+                        <a class="text-muted px-4" href="#">Search</a>
                     </button>
                 </div>
             </section>
@@ -95,14 +95,14 @@
 
         <!-- HOT ADS -->
 
-            <section class="hot-ads d-none d-md-flex row py-4">
-                <div class="col-1">
-                    <!-- EMPTY SPACE -->
-                </div>
+            <section class="hot-ads d-none d-md-flex row p-0 m-0 py-4">
                 <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
                     <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
                         <i class="text-light fas fa-chevron-left"></i>
                     </button>
+                </div>
+                <div class="col-1">
+                    <!-- EMPTY SPACE -->
                 </div>
                 <div class="col-8">
                     <h5 class="text-uppercase text-grey my-3">
@@ -110,67 +110,105 @@
                     </h5>
                     <article class="row">
                         <div class="media">
-                            <img class="col-6" src="./assets/imgs/cyberpunk.png" alt="Cyberpunk 2077">
+                            <img class="col-5" src="./assets/imgs/cyberpunk.png" alt="Cyberpunk 2077">
                             <div class="media-body">
                                 <b> Pre-order <i> Cyberpunk 2077</i> now! Available December 10th, 2020.</b>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
+                <div class="col-1">
+                    <!-- EMPTY SPACE -->
+                </div>
+                <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0 m-0">
                     <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
                         <i class="text-light fas fa-chevron-right align-self-center"></i>
                     </button>
-                </div>
-                <div class="col-1">
-                    <!-- EMPTY SPACE -->
                 </div>
             </section>
         
         <!-- GAMES -->
 
-            <section class="row container-fluid jumbotron m-0 py-5">
+            <section class="row container-fluid jumbotron m-0 p-0">
 
             <!-- NEW RELEASES -->
 
-            <section class="row container-fluid mx-auto">
-                <div class="col-12 section-title text-black h6 font-weight-bold text-uppercase border-bottom p-0 pb-1 mx-auto">
+            <section class="row container-fluid mx-auto py-4">
+                <div class="col-10 section-title text-black h6 font-weight-bolder text-uppercase border-bottom p-0 pb-1 mx-auto">
                     <i class="fas fa-gamepad pr-3 m-0"></i>new releases
                 </div>
-                <div class="row col-12 m-0 p-0">
+
+                <div class="row col-12 mx-0 p-0 my-3">
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
                         <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
                             <i class="text-light fas fa-chevron-left"></i>
                         </button>
                     </div>
+                
+                <!-- NIOH -->
+
                     <div class="col media bg-light d-flex flex-column border p-0 mx-1">
                         <div class="img-container-new">
-                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12">
-                        </div>                        
-                        <h5>Nioh 2 - The Complette Edition</h5>
-                        <p>Platforms </p>
+                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12 p-0 m-0 pb-3">
+                        </div>                    
+                        <h5 class="font-weight-bolder px-3">Nioh 2 - The Complete Edition</h5>
+                        <p class="px-3">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                  
+                        <section class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$49.99</p>
+                            </div>
+                        </section>
                     </div>
+
+                <!-- DBZ -->
+
                     <div class="col media bg-light d-flex flex-column border p-0 mx-1">
                         <div class="img-container-new">
-                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12">
+                            <img src="./assets/imgs/new-releases2.png" alt="Dragon ball Z: Kakarot" class="col-12 p-0 m-0 pb-3">
                         </div>                        
-                        <h5>Nioh 2 - The Complette Edition</h5>
-                        <p>Platforms </p>
+                        <h5 class="font-weight-bolder px-3">Dragon Ball Z: Kakarot</h5>
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <section class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$9.99</p>
+                            </div>
+                        </section>
                     </div>
+
+                <!-- TRINE -->
+
                     <div class="col media bg-light d-flex flex-column border p-0 mx-1">
                         <div class="img-container-new">
-                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12">
+                            <img src="./assets/imgs/new-releases3.jpg" alt="Trine 4" class="col-12 p-0 m-0 pb-3">
                         </div>                        
-                        <h5>Nioh 2 - The Complette Edition</h5>
-                        <p>Platforms </p>
+                        <h5 class="font-weight-bolder px-3">Trine 4: Melody of Mistery</h5>
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <section class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$7.99</p>
+                            </div>
+                        </section>
                     </div>
+
+                <!-- REALPOLITIKS -->
+
                     <div class="col media bg-light d-flex flex-column border p-0 mx-1">
                         <div class="img-container-new">
-                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12">
+                            <img src="./assets/imgs/new-releases4.jpg" alt="Realpolitiks 2" class="col-12 p-0 m-0 pb-3">
                         </div>                        
-                        <h5>Nioh 2 - The Complette Edition</h5>
-                        <p>Platforms </p>
-                    </div>                    
+                        <h5 class="font-weight-bolder px-3">Realpolitiks II</h5>
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <section class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$26.99</p>
+                            </div>
+                        </section>
+                    </div>
+                
                     <div class="col-1 d-flex flex-column justify-content-center align-items-center p-0">
                         <button class="border-0 rounded-circle bg-red" style="height: 45px; width: 45px;">
                             <i class="text-light fas fa-chevron-right align-self-center"></i>
@@ -189,16 +227,18 @@
 
     <!-- FOOTER -->
 
-        <footer class="row container-fluid col-12 bg-light border-top p-0 m-0">
-            <section class="logo-message col-4 text-muted">
-                <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
+        <footer class="row container-fluid col-12 bg-light border-top p-0 pt-4 m-0">
+            <section class="logo-message col-4 text-muted d-flex flex-column align-content-center">
+                <a class="nav-link text-decoration-none text-red text-uppercase d-flex justify-content-center logo" href="#">
                     <i class="fas fa-jedi"></i>
                     <div class="logo-text">
                         <p class="ml-2 py-0 m-0">gamer</p>
                         <p class="ml-2 republic">republic</p>
                     </div>                            
                 </a>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, architecto laborum? Porro laboriosam voluptatibus corporis aliquam facilis, vero quasi architecto.
+                <p class="text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Assumenda, architecto laborum? <br> Porro laboriosam voluptatibus corporis aliquam facilis, vero quasi architecto.
+                </p>
             </section>
             <section class="footer-categories col">
                 <p class="text-uppercase font-weight-bolder text-red border-bottom py-1">
@@ -269,6 +309,11 @@
                     </ul>
                 </div>
             </section>
+            <section class="row col-12 border-top p-0 m-0 mt-3">
+                <p class="text-muted pt-3 mx-auto text-small">
+                    Made with <i class="text-red fas fa-heart"></i> by Vanessa Aoki.
+                </p>
+                </section>
         </footer>
 
     <!-- END OF THE WRAPPER -->
