@@ -7,141 +7,136 @@ $black: #383838;
 
 // Fonts
 
-$heuvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-Helvetica, Arial, "Lucida Grande", sans-serif;
-$gotham: GothamPro;
-
+$heuvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  helvetica, arial, "Lucida Grande", sans-serif;
+$gotham: gothampro;
 
 // STYLE
 
 html,
 body,
 .wrapper {
-    width: 100vw;
-    height: auto;
-    font-family: $heuvetica;
-    color: $black;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
+  width: 100vw;
+  height: auto;
+  font-family: $heuvetica;
+  color: $black;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.bg-red {background-color: $red;}
+.bg-red { background-color: $red; }
 
-.bg-grey {background-color: $grey;}
+.bg-grey { background-color: $grey; }
 
-.bg-black {background-color: $black;}
+.bg-black { background-color: $black; }
 
-.text-red {color: $red;}
+.text-red { color: $red; }
 
-.text-grey {color: $grey;}
+.text-grey { color: $grey; }
 
-.text-black {color: $black}
+.text-black { color: $black; }
 
 .btn-red {
-    background-color: $red !important;
-    margin-top: -10px;
+  background-color: $red !important;
+  margin-top: -10px;
 }
 
-.fixed-navbar {z-index: 100;}
+.fixed-navbar { z-index: 100; }
 
-.search-arrows {z-index: 1;}
+.search-arrows {
+  z-index: 1;
+  a { color: $red; }
+}
 
 .logo {
-    i {font-size: 35px;}
-    p {
-        font-family: flegrei, sans-serif;
-        font-size: 18px;
-    }
-    .republic {margin-top: -14px;} 
+  i { font-size: 35px; }
+
+  p {
+    font-family: flegrei, sans-serif;
+    font-size: 18px;
+  }
+  .republic { margin-top: -14px; }
 }
 
 .logo-main {
-    i {font-size: 65px;}
-    p {font-size: 32px;}
-    .republic {margin-top: -27px;} 
+  i { font-size: 65px; }
+  p { font-size: 32px; }
+  .republic { margin-top: -27px; }
 }
 
 .add-icon:hover {
-    background-color: $black;
-    color: $red !important;
-}
-
-.search-arrows {
-    a {color: $red;}
+  background-color: $black;
+  color: $red !important;
 }
 
 .pre-order {
-    border: 2px solid $red;
-    background-color: #d352650c;
+  border: 2px solid $red;
+  background-color: #d352650c;
 }
 
-.author {color: $grey}
+.author { color: $grey; }
 
 .author:hover {
-    text-decoration: none;
-    color: $red;
+  text-decoration: none;
+  color: $red;
 }
 
-.social-bottom {
-    a {
-        background-color: $red;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border: 3px solid $red;
-        color: white;
-    }
-    a:hover {
-        background-color: white;
-        color: $red !important;
-    }
-}
-
-.arrow-button {
-    a,
-    i {
-        background-color: $red;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border: 3px solid $red;
-        color: white;
-    }
-    a:hover,
-    i:hover {
-        background-color: white;
-        color: $red !important;
-    }
-}
+a:hover { color: $red !important; }
 
 // MAIN
 
 .wrapper {
-    header {
-        nav {
-            width: 100vw;
-            height: 65px;
-            .fa-rocket {font-size: 0.85em;}
-        }
-        section {
-            width: 100vw;
-        }
+  header {
+    nav {
+      width: 100vw;
+      height: 65px;
+      .fa-rocket { font-size: 0.85em; }
     }
+
+    section {
+      width: 100vw;
+    }
+  }
+
+  .social-bottom {
+    a {
+      background-color: $red;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 3px solid $red;
+      color: white;
+    }
+  }
+
+  .arrow-button {
+    a,
+    i {
+      background-color: $red;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 3px solid $red;
+      color: white;
+    }
+
+    a:hover,
+    i:hover {
+      background-color: white;
+      color: $red !important;
+    }
+  }
 }
 
 // SEARCH
 
 .page-link {
-    color: $grey !important;
-    font-weight: 700;
+  color: $grey !important;
+  font-weight: 700;
 }
 
 .page-link:hover {
-    color: white !important;
-    background-color: $red !important;
+  color: white !important;
+  background-color: $red !important;
 }
-
-// GENERAL
-
-a:hover {color: $red !important;}
