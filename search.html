@@ -21,9 +21,9 @@
         <!-- FIXED NAVBAR -->
 
             <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 px-lg-5 fixed-navbar">
-                <ul class="col-lg-8 nav container-fluid d-flex justify-content-around lg-justify-content-between align-items-center p-0">
+                <ul class="col-lg-8 nav container-fluid d-flex justify-content-md-around lg-justify-content-between align-items-center p-0">
                     <li class="nav-item p-0 m-0 mt-2">
-                        <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
+                        <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="./index.html">
                             <i class="fas fa-jedi"></i>
                             <div class="logo-text">
                                 <p class="ml-2 py-0 m-0">gamer</p>
@@ -31,17 +31,17 @@
                             </div>                            
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="d-none d-md-block nav-item">
                         <a class="nav-link text-decoration-none text-red text-uppercase pb-3" href="./index.html">
                             <i class="mr-2 fas fa-rocket"></i>home
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="d-none d-md-block nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
                             <i class="mr-2 fas fa-journal-whills"></i>collection
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="d-none d-md-block nav-item">
                         <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
                             <i class="mr-2 fas fa-dolly"></i>purchase list
                         </a>
@@ -54,7 +54,7 @@
                 </ul>
                 <div class="container-fluid col-2 col-lg-4 d-flex justify-content-end align-items-center p-0 mt-2 pr-4 mx-lg-5">
                     <i class="d-none d-lg-block text-grey h4 fas fa-comments-dollar"></i>
-                    <a class="text-light lg-font-weight-bolder mr-2 mx-lg-4" href="#">John Doe</a>
+                    <a class="d-none d-md-block text-light lg-font-weight-bolder mr-2 mx-lg-4" href="#">John Doe</a>
                     <i class="text-grey lg-h4 border rounded-circle p-1 bg-light fas fa-user-astronaut"></i>
                 </div>
             </nav>
@@ -63,7 +63,7 @@
 
             <section class="container-fluid bg-red d-flex flex-column align-item-center px-0 py-4 m-0">
                 <div class="col-lg-10 mx-lg-auto d-flex flex-column align-items-start text-light p-0 m-0 p-lg-3">
-                    <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main p-lg-0" href="#">
+                    <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main p-lg-0" href="./index.html">
                         <i class="fas fa-jedi"></i>
                         <div class="logo-text">
                             <p class="ml-2 py-0 m-0">gamer</p>
@@ -405,8 +405,8 @@
     <!-- FOOTER -->
 
         <footer class="row container-fluid col-12 bg-light border-top p-0 pt-4 m-0">
-            <section class="logo-message col-4 text-muted d-flex flex-column align-content-center">
-                <a class="nav-link text-decoration-none text-red text-uppercase d-flex justify-content-center logo" href="#">
+            <section class="logo-message col-4 text-muted d-none d-md-flex flex-column align-content-center">
+                <a class="nav-link text-decoration-none text-red text-uppercase d-flex justify-content-center logo" href="./index.html">
                     <i class="fas fa-jedi"></i>
                     <div class="logo-text">
                         <p class="ml-2 py-0 m-0">gamer</p>
@@ -422,7 +422,7 @@
                     categories
                 </p>
                 <div class="container-fluid d-flex m-0 p-0">
-                    <ul class="nav col d-flex flex-column">
+                    <ul class="nav col d-none d-md-flex flex-column">
                         <li class="nav-item">
                             <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">Trending</a>
                         </li>
@@ -456,7 +456,7 @@
                             <a href="#" class="nav-link text-grey p-0 pb-1">Darkest Dungeon</a>
                         </li>    
                     </ul>
-                    <ul class="nav col d-none d-lg-flex flex-column">
+                    <ul class="nav col d-flex flex-column">
                         <li class="nav-item">
                             <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">FPS</a>
                         </li>
@@ -526,7 +526,6 @@
                 </p>
                 </section>
         </footer>
-
 
 
     </div>
