@@ -21,7 +21,7 @@ In this project there are 2 pages: the first one is the main page, it displays s
 ## Video Preview
 
 
-[![Watch the video](./assets/imgs/video.png)](https://www.loom.com/share/466877d1feb44a70ac3a13d1b0a5e5d4?sharedAppSource=personal_library)
+[![Watch the video](./assets/imgs/video.png)](https://www.loom.com/share/466877d1feb44a70ac3a13d1b0a5e5d4)
 
 ## Live Demo
 
