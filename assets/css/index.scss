@@ -12,6 +12,13 @@ $heuvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
 $gotham: gothampro;
 
 // STYLE
+@font-face {
+  font-family: GothamPro, custom-font;
+  src: url(GothamPro-Light.eot);
+  src: url(GothamPro-Light.woff2) format("woff2"), url(GothamPro-Light.woff) format("woff"), url(GothamPro-Light.ttf) format("truetype"), url(GothamPro-Light.svg#GothamPro-Light) format("svg"), url(GothamPro-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
 
 html,
 body,
@@ -88,6 +95,8 @@ a:hover { color: $red !important; }
 
 .wrapper {
   header {
+    font-family: $gotham;
+
     nav {
       width: 100vw;
       height: 65px;

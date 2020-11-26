@@ -1,3 +1,11 @@
+@font-face {
+  font-family: GothamPro, custom-font;
+  src: url(GothamPro-Light.eot);
+  src: url(GothamPro-Light.woff2) format("woff2"), url(GothamPro-Light.woff) format("woff"), url(GothamPro-Light.ttf) format("truetype"), url(GothamPro-Light.svg#GothamPro-Light) format("svg"), url(GothamPro-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
 html,
 body,
 .wrapper {
@@ -97,6 +105,10 @@ body,
 
 a:hover {
   color: #d35266 !important;
+}
+
+.wrapper header {
+  font-family: GothamPro, custom-font;
 }
 
 .wrapper header nav {
