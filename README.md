@@ -18,6 +18,11 @@ In this project there are 2 pages: the first one is the main page, it displays s
 - CSS 
 - Bootstrap as Framework
 
+## Video Preview
+
+
+[![Watch the video](./assets/imgs/video.png)](https://www.loom.com/share/466877d1feb44a70ac3a13d1b0a5e5d4?sharedAppSource=personal_library)
+
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/VanessaAoki/CapstoneProject/feature_main/index.html) 
@@ -54,7 +59,7 @@ or
 2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
 
 
-## Authors
+## Author
 
 👤 **Vanessa Aoki**
 
