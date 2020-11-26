@@ -74,23 +74,25 @@
                 </div>
 
                 <div class="search-forms col-9 row input-group d-flex justify-content-center m-0 mx-auto">
-                    <div class="input-group-prepend">
-                        <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1 mr-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="text-muted">All departments</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">New Releases</a>
-                            <a href="#" class="dropdown-item">Best Selling</a>
-                            <a href="#" class="dropdown-item">Hot & Trending</a>
-                            <a href="#" class="dropdown-item">Indie Games</a>
-                            <a href="#" class="dropdown-item">Deals</a>
+                    <form action="search.html">
+                        <div class="input-group-prepend">
+                            <button class="search-dropdown text-left btn bg-light dropdown-toggle border rounded-0 my-1 mr-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="text-muted">All departments</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">New Releases</a>
+                                <a href="#" class="dropdown-item">Best Selling</a>
+                                <a href="#" class="dropdown-item">Hot & Trending</a>
+                                <a href="#" class="dropdown-item">Indie Games</a>
+                                <a href="#" class="dropdown-item">Deals</a>
+                            </div>
                         </div>
-                    </div>
-                    <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1 mr-1">
-                    <input type="text" name="search" placeholder="Game name" id="search-input" class="form-control border rounded-0 m-0 my-1 mr-1">
-                    <button class="btn btn-dark rounded-0 my-1 ml-2">
-                        <a class="text-muted px-4" href="./search.html">Search</a>
-                    </button>
+                        <input type="text" name="search" placeholder="Search category" id="search-input" class="form-control border rounded-0 my-1 mr-1">
+                        <input type="text" name="search" placeholder="Game name" id="search-input" class="form-control border rounded-0 m-0 my-1 mr-1">
+                        <button class="btn btn-dark rounded-0 my-1 ml-2">
+                            <span class="text-muted px-4">Search</span>
+                        </button>
+                    </form>
                 </div>
             </section>
         </header>
