@@ -46,6 +46,7 @@ body,
 .search-arrows {
   z-index: 1;
 }
+
 .search-arrows a {
   color: #d35266;
 }
@@ -53,10 +54,12 @@ body,
 .logo i {
   font-size: 35px;
 }
+
 .logo p {
   font-family: flegrei, sans-serif;
   font-size: 18px;
 }
+
 .logo .republic {
   margin-top: -14px;
 }
@@ -64,9 +67,11 @@ body,
 .logo-main i {
   font-size: 65px;
 }
+
 .logo-main p {
   font-size: 32px;
 }
+
 .logo-main .republic {
   margin-top: -27px;
 }
@@ -98,12 +103,15 @@ a:hover {
   width: 100vw;
   height: 65px;
 }
+
 .wrapper header nav .fa-rocket {
   font-size: 0.85em;
 }
+
 .wrapper header section {
   width: 100vw;
 }
+
 .wrapper .social-bottom a {
   background-color: #d35266;
   width: 40px;
@@ -112,6 +120,7 @@ a:hover {
   border: 3px solid #d35266;
   color: white;
 }
+
 .wrapper .arrow-button a,
 .wrapper .arrow-button i {
   background-color: #d35266;
@@ -121,6 +130,7 @@ a:hover {
   border: 3px solid #d35266;
   color: white;
 }
+
 .wrapper .arrow-button a:hover,
 .wrapper .arrow-button i:hover {
   background-color: white;
@@ -136,5 +146,3 @@ a:hover {
   color: white !important;
   background-color: #d35266 !important;
 }
-
-/*# sourceMappingURL=style.css.map */
