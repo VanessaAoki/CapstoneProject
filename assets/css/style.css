@@ -158,3 +158,11 @@ a:hover {
   color: white !important;
   background-color: #d35266 !important;
 }
+
+.footer-credits {
+  width: 100vw;
+  margin: 0;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
