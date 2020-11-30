@@ -1,7 +1,7 @@
 # Capstone Project
 
-This is the Capstone Project of the HTML &amp; CSS module of the main curriculum of Microverse, and it aims to create an online game shop, inspired on the desing created by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX).
-In this project there are 2 pages: the first one is the main page, it displays some of the recommended games for different categories as well as the hot games of the week; the second page is the result search page (reacheable when clicking in the search button), and it displays the main results for the FPS genre.
+This is the Capstone Project of the HTML &amp; CSS module of the main curriculum of Microverse, and it aims to create an online game shop, inspired on the design created by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX).
+In this project there are 2 pages: the first one is the main page, it displays some of the recommended games for different categories as well as the hot games of the week; the second page is the result search page (reachable when clicking on the search button), and it displays the main results for the FPS genre.
 
 > The Main Page :
  
@@ -56,7 +56,7 @@ or
  $ git clone https://github.com/VanessaAoki/CapstoneProject.git
 ```
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+2- Open the folder on VS Code, right-click the index.html file and click on "Open With Live Server"
 
 
 ## Author
