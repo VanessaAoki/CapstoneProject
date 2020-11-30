@@ -159,6 +159,22 @@ a:hover {
   background-color: #d35266 !important;
 }
 
+.footer-other {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.other-1 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-credits {
   width: 100vw;
   margin: 0;
