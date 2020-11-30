@@ -76,7 +76,8 @@ body,
   font-size: 65px;
 }
 
-.logo-main h1 {
+.logo-main h1,
+.logo-main h2 {
   font-family: flegrei, sans-serif;
   font-size: 32px;
 }
