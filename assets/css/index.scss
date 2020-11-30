@@ -45,7 +45,7 @@ body,
 .text-black { color: $black; }
 
 .btn-red {
-  background-color: $red !important;
+  background-color: $red;
   margin-top: -10px;
 }
 
@@ -89,7 +89,7 @@ body,
   color: $red;
 }
 
-a:hover { color: $red !important; }
+a:hover { color: $red; }
 
 // MAIN
 
@@ -133,7 +133,7 @@ a:hover { color: $red !important; }
     a:hover,
     i:hover {
       background-color: white;
-      color: $red !important;
+      color: $red;
     }
   }
 }
@@ -141,11 +141,11 @@ a:hover { color: $red !important; }
 // SEARCH
 
 .page-link {
-  color: $grey !important;
+  color: $grey;
   font-weight: 700;
 }
 
 .page-link:hover {
-  color: white !important;
-  background-color: $red !important;
+  color: white;
+  background-color: $red;
 }
