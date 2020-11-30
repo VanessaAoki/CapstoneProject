@@ -76,12 +76,13 @@ body,
   font-size: 65px;
 }
 
-.logo-main p {
+.logo-main h1 {
+  font-family: flegrei, sans-serif;
   font-size: 32px;
 }
 
 .logo-main .republic {
-  margin-top: -27px;
+  margin-top: -19px;
 }
 
 .add-icon:hover {
