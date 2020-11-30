@@ -10,7 +10,7 @@ In this project there are 2 pages: the first one is the main page, it displays s
 
 > The Search Results :
 
-![screenshot](./assets/imgs/screenshot-mobile.jpg)
+![screenshot](./assets/imgs/screenshot-results.png)
 
 ## Built With
 
