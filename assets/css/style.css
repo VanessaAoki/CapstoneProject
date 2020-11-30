@@ -183,3 +183,23 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+/* FOR SMALLER SCREENS */
+
+@media screen and (max-width: 544px) {
+
+  h6,
+  .h6 { font-size: 0.9rem !important; }
+
+  h5,
+  .h5 { font-size: 1rem !important; }
+
+  h4,
+  .h4 { font-size: 1.15rem !important; }
+
+  h3,
+  .h3 { font-size: 1.25rem !important; }
+
+  p,
+  .p { font-size: 0.8rem !important; }
+}
