@@ -1,0 +1,151 @@
+// VARIABLES
+// Colors
+
+$red: #d35266;
+$grey: #888;
+$black: #383838;
+
+// Fonts
+
+$heuvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  helvetica, arial, "Lucida Grande", sans-serif;
+$gotham: gothampro;
+
+// STYLE
+@font-face {
+  font-family: GothamPro, custom-font;
+  src: url(GothamPro-Light.eot);
+  src: url(GothamPro-Light.woff2) format("woff2"), url(GothamPro-Light.woff) format("woff"), url(GothamPro-Light.ttf) format("truetype"), url(GothamPro-Light.svg#GothamPro-Light) format("svg"), url(GothamPro-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html,
+body,
+.wrapper {
+  width: 100vw;
+  height: auto;
+  font-family: $heuvetica;
+  color: $black;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-red { background-color: $red; }
+
+.bg-grey { background-color: $grey; }
+
+.bg-black { background-color: $black; }
+
+.text-red { color: $red; }
+
+.text-grey { color: $grey; }
+
+.text-black { color: $black; }
+
+.btn-red {
+  background-color: $red;
+  margin-top: -10px;
+}
+
+.fixed-navbar { z-index: 100; }
+
+.search-arrows {
+  z-index: 1;
+  a { color: $red; }
+}
+
+.logo {
+  i { font-size: 35px; }
+
+  p {
+    font-family: flegrei, sans-serif;
+    font-size: 18px;
+  }
+  .republic { margin-top: -14px; }
+}
+
+.logo-main {
+  i { font-size: 65px; }
+  p { font-size: 32px; }
+  .republic { margin-top: -27px; }
+}
+
+.add-icon:hover {
+  background-color: $black;
+  color: $red;
+}
+
+.pre-order {
+  border: 2px solid $red;
+  background-color: #d352650c;
+}
+
+.author { color: $grey; }
+
+.author:hover {
+  text-decoration: none;
+  color: $red;
+}
+
+a:hover { color: $red; }
+
+// MAIN
+
+.wrapper {
+  header {
+    font-family: $gotham;
+
+    nav {
+      width: 100vw;
+      height: 65px;
+      .fa-rocket { font-size: 0.85em; }
+    }
+
+    section {
+      width: 100vw;
+    }
+  }
+
+  .social-bottom {
+    a {
+      background-color: $red;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 3px solid $red;
+      color: white;
+    }
+  }
+
+  .arrow-button {
+    a,
+    i {
+      background-color: $red;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 3px solid $red;
+      color: white;
+    }
+
+    a:hover,
+    i:hover {
+      background-color: white;
+      color: $red;
+    }
+  }
+}
+
+// SEARCH
+
+.page-link {
+  color: $grey;
+  font-weight: 700;
+}
+
+.page-link:hover {
+  color: white;
+  background-color: $red;
+}

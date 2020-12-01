@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Republic</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/jos6xxh.css">
+</head>
+
+<body class="container-fluid p-0 m-0 mt-2">
+    <!-- WRAPPER -->
+    <div class="wrapper container-fluid p-0 m-0 mt-5">
+        
+    <!-- HEADER -->
+
+    <header>
+
+        <!-- FIXED NAVBAR -->
+
+            <nav class="bg-black fixed-top d-flex justify-content-around p-0 m-0 px-lg-5 fixed-navbar">
+                <ul class="col col-lg-8 nav container-fluid d-flex justify-content-md-around lg-justify-content-between align-items-center p-0">
+                    <li class="nav-item p-0 m-0 mt-2">
+                        <a class="nav-link text-decoration-none text-red text-uppercase d-flex logo" href="#">
+                            <i class="fas fa-jedi"></i>
+                            <div class="logo-text">
+                                <p class="ml-2 py-0 m-0">gamer</p>
+                                <p class="ml-2 republic">republic</p>
+                            </div>                            
+                        </a>
+                    </li>
+                    <li class="d-none d-md-block nav-item">
+                        <a class="nav-link text-decoration-none text-red text-uppercase pb-3" href="./index.html">
+                            <i class="mr-2 fas fa-rocket"></i>home
+                        </a>
+                    </li>
+                    <li class="d-none d-md-block nav-item">
+                        <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
+                            <i class="mr-2 fas fa-journal-whills"></i>collection
+                        </a>
+                    </li>
+                    <li class="d-none d-lg-block nav-item">
+                        <a class="nav-link text-decoration-none text-grey text-uppercase pb-3" href="#">
+                            <i class="mr-2 fas fa-dolly"></i>purchase list
+                        </a>
+                    </li>
+                    <li class="d-none d-lg-block nav-item">
+                        <button class="btn btn-red text-light text-uppercase font-weight-bold px-4">
+                            post an ad
+                        </button>
+                    </li>
+                </ul>
+                <div class="container-fluid col-3 col-lg-4 d-flex justify-content-end align-items-center p-0 mt-2 pr-4 mx-lg-5">
+                    <i class="d-none d-lg-block text-grey h4 fas fa-comments-dollar"></i>
+                    <a class="d-none d-md-block text-light lg-font-weight-bolder mr-2 mx-lg-4" href="#">John Doe</a>
+                    <i class="text-grey h5 rounded-circle p-1 bg-light fas fa-user-astronaut"></i>
+                </div>
+            </nav>
+
+        <!-- SEARCH FORMS -->
+
+            <section class="container-fluid bg-red d-flex flex-column align-item-center px-0 py-4 m-0">
+                <div class="col-10 mx-auto d-flex flex-column align-items-center text-light p-0">
+                    <a class="nav-link text-decoration-none text-red text-uppercase d-flex text-light logo logo-main p-lg-0 ml-lg-2"  href="#">
+                        <i class="fas fa-jedi"></i>
+                        <div class="logo-text">
+                            <h1 class="ml-2 py-0 m-0">gamer</h1>
+                            <h2 class="ml-2 republic">republic</h2>
+                        </div>                            
+                    </a>
+                    <h5 class="pb-3 m-0 ml-3">Your online gaming shop</h5>
+                </div>
+
+                <div class="search-forms col-10 row input-group d-flex justify-content-center m-0 mx-auto">
+                    <div class="col-md d-flex input-group-prepend p-0">
+                        <button class="col-md search-dropdown rounded-0 text-right btn bg-light dropdown-toggle my-1 mr-md-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="d-block float-left text-muted p-0 m-0">Category</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">New Releases</a>
+                            <a href="#" class="dropdown-item">Hot & Trending</a>
+                            <a href="#" class="dropdown-item">Indie Games</a>
+                            <a href="#" class="dropdown-item">Deals</a>
+                        </div>
+                    </div>
+                    <input type="text" name="search" placeholder="FPS" id="search-input1" class="col-md d-none d-md-block form-control border-0 rounded-0 my-1 mr-1">
+                    <input type="text" name="search" placeholder="Game name" id="search-input2" class="col-md form-control border-0 rounded-0 m-0 my-1 mr-md-1">
+                    <a href="./search.html" role="button" class="col-md btn btn-dark rounded-0 text-muted my-1 ml-md-2">
+                        Search
+                    </a>
+                </div>
+            </section>
+        </header>
+
+
+    <!-- MAIN -->
+
+        <main>
+
+        <!-- HOT ADS -->
+
+            <div class="hot-ads d-flex row p-0 m-0 py-4 justify-content-center">
+                <section class="hot-title row col-12">
+                    <h2 class="text-uppercase col-9 col-lg-10 font-weight-bold text-grey mb-3 mx-auto">
+                        hot games
+                    </h2>
+                </section>
+                
+                <div class="carousel slide d-flex col" id="hotads" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <article class="row col col-lg-10 d-flex flex-column flex-md-row mx-auto">
+                                <img class="col-md-5" src="./assets/imgs/bestselling4.png" alt="Cyberpunk 2077">
+                                <div class="col d-flex flex-column py-3">
+                                    <p class="d-none d-lg-block pre-order h5 text-center py-2 mb-4"><b> Pre-order </b><i> Cyberpunk 2077 </i><b> now! Available December 10th, 2020</b></p>
+                                    <h3><a class="text-red font-weight-bolder">Cyberpunk 2077</a></h3>
+                                    <p class="d-none d-md-block font-weight-bolder text-grey">Pre-Order</p>
+                                    <p class="d-md-none font-weight-bolder mb-1 text-grey">Release date: December 10th, 2020</p>
+                                    <p class="d-none d-lg-block">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quas dolorum obcaecati eius eum deserunt fuga commodi molestiae porro facere!
+                                    </p>
+                                    <p class="py-md-4 mt-3">
+                                        Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i>
+                                    </p>
+                                    <div class="input-group m-0 p-0">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-red font-weight-bold text-light border-right rounded-0">$59.99</button>
+                                        </div>
+                                        <div class="d-none d-md-block input-group-postpend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-0"><i class="mr-2 fas fa-cart-arrow-down"></i> Purchase Details</button>
+                                        </div>
+                                        <div class="d-md-none input-group-postpend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-0"><i class="mr-2 fas fa-cart-arrow-down"></i> Pre-Order</button>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </article>
+                        </div>
+                        <div class="carousel-item media">
+                            <article class="row col col-lg-10 d-flex flex-md-row mx-auto">
+                                <img class="col-md-5" src="./assets/imgs/search1.jpg" alt="Cyberpunk 2077">
+                                <div class="col d-flex flex-column py-3">
+                                    <h3><a class="text-red font-weight-bolder">Call of Duty: Black Ops Cold War</a></h3>
+                                    <p class="d-none d-md-block font-weight-bolder text-grey">Out now</p>
+                                    <p class="d-none d-lg-block">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quas dolorum obcaecati eius eum deserunt fuga commodi molestiae porro facere!
+                                    </p>
+                                    <p class="d-none d-lg-block">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo voluptatibus expedita, atque iusto ab amet impedit temporibus maiores autem. Ut quam quis eos nam quaerat doloribus assumenda totam rerum facere, ratione laudantium adipisci iste alias impedit provident voluptatibus omnis!
+                                    </p>
+                                    <p class="py-md-3 py-lg-4 mt-lg-3">
+                                        Platforms:<i class="border-right fab fa-windows px-2"></i><i class="border-right fab fa-xbox px-2"></i><i class="fab fa-playstation px-2"></i>
+                                    </p>
+                                    <div class="input-group m-0 p-0">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-0">$59.99</button>
+                                        </div>
+                                        <div class="d-none d-md-block input-group-postpend">
+                                            <button class="btn btn-red font-weight-bold text-light rounded-0"><i class="mr-2 fas fa-cart-arrow-down"></i> Purchase Details</button>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#hotads" role="button" data-slide="prev">
+                        <span class="arrow-button"><i class="p-2 text-light fas fa-chevron-left"></i></span>
+                    </a>
+                    <a class="carousel-control-next" href="#hotads" role="button" data-slide="next">
+                        <span class="arrow-button"><i class="p-2 text-light fas fa-chevron-right"></i></span>
+                    </a>
+                </div>
+                
+            </div>
+        
+        <!-- GAMES -->
+
+            <div class="row container-fluid jumbotron m-0 p-0">
+
+            <!-- NEW RELEASES -->
+
+            <section class="row container-fluid mx-auto py-4">
+                <div class="col-10 section-title text-black font-weight-bolder text-uppercase border-bottom p-0 pb-1 mx-auto">
+                    <h3><i class="fas fa-gamepad pr-3 m-0"></i>new releases</h3>
+                </div>
+
+                <div class="row col-12 mx-0 p-0 my-3 d-flex justify-content-center">
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                
+                <!-- NIOH -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border mb-3 mb-md-0 p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/new-releases1.png" alt="Nioh 2" class="col-12 p-0 m-0 pb-3">
+                        </div>                    
+                        <p class="font-weight-bolder h5 px-3">Nioh 2 - The Complete Edition</p>
+                        <p class="px-3">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                  
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$49.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- DBZ -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border mb-3 mb-md-0 p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/new-releases2.png" alt="Dragon ball Z: Kakarot" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <p class="font-weight-bolder h5 px-3">Dragon Ball Z: Kakarot</p>
+                        <p class="px-3 pt-4">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$9.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- TRINE -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/new-releases3.jpg" alt="Trine 4" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <p class="font-weight-bolder h5 px-3">Trine 4: Melody of Mistery</p>
+                        <p class="px-3 pt-md-4">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$7.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- REALPOLITIKS -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/new-releases4.jpg" alt="Realpolitiks 2" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <p class="font-weight-bolder h5 px-3">Realpolitiks II</p>
+                        <p class="px h5-3 pt-5 pt-lg-4">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$26.99</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- BEST SELLING -->
+
+            <section class="row container-fluid mx-auto py-4">
+                <div class="col-10 section-title text-black font-weight-bolder text-uppercase border-bottom p-0 pb-1 mx-auto">
+                    <h2><i class="fas fa-gamepad pr-3 m-0"></i>best selling</h2>
+                </div>
+
+                <div class="row col-12 mx-0 p-0 my-3 d-flex justify-content-center">
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                
+                <!-- HITMAN -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border mb-3 mb-md-0 p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/bestselling1.png" alt="Hitman 2" class="col-12 p-0 m-0 pb-3">
+                        </div>                    
+                        <h5 class="font-weight-bolder px-3">Hitman 2</h5>
+                        <p class="px-3 pt-4 pt-md-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab border-right fa-steam-symbol px-2"></i> <i class="fab fa-apple px-1"></i></p>                  
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$19.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- DARK SOULS -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border mb-3 mb-md-0 p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/bestselling2.jpg" alt="Dark Souls III" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Dark Souls III</h5>
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$21.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- SEKIRO -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/bestselling3.jpg" alt="Sekiro" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Sekiro</h5>
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$39.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- CYBERPUNK -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/bestselling4.png" alt="Cyberpunk 2077" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Cyberpunk 2077</h5>
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$59.99</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- INDIES -->
+
+            <section class="row container-fluid mx-auto py-4">
+                <div class="col-10 section-title text-black font-weight-bolder text-uppercase border-bottom p-0 pb-1 mx-auto">
+                    <h2><i class="fas fa-gamepad pr-3 m-0"></i>indie games</h2>
+                </div>
+
+                <div class="row col-12 mx-0 p-0 my-3 d-flex justify-content-center">
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 text-light fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                
+                <!-- AMONG US -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mb-3 mb-md-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/indie1.png" alt="Among Us" class="col-12 p-0 m-0 pb-3">
+                        </div>                    
+                        <h5 class="font-weight-bolder px-3">Among Us</h5>
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                  
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$4.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- HADES -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border mb-3 mb-md-0 p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/indie2.png" alt="Hades" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Hades</h5>
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$24.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- FALL GUYS -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/indie3.jpg" alt="Fall Guys" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Fall Guys</h5>
+                        <p class="px-3 pt-5 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$15.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- HOLLOW KNIGHT -->
+
+                    <div class="col-5 col-md media bg-light d-flex flex-column border p-0 mx-1">
+                        <div class="img-container-new">
+                            <img src="./assets/imgs/indie4.png" alt="Hollow Knight" class="col-12 p-0 m-0 pb-3">
+                        </div>                        
+                        <h5 class="font-weight-bolder px-3">Hollow Knight</h5>
+                        <p class="px-3 pt-4 pt-lg-0">Platforms:<i class="border-right fab fa-windows px-2"></i><i class="fab fa-steam-symbol px-2"></i></p>                        
+                        <div class="row col d-block pb-3 m-0">
+                            <div class="container-fluid d-flex justify-content-between align-items-center m-0 p-0">
+                                <a href="#"><i class="add-icon border m-0 text-muted p-2 fas fa-plus"></i></a>
+                                <p class="text-red h5 mt-2 font-weight-bolder">$7.49</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-1 d-none d-md-flex flex-column justify-content-center align-items-center p-0">
+                        <a class="arrow-button">
+                            <i class="p-2 pl-3 text-light fas fa-chevron-right align-self-center m-0"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+            
+            </div>
+
+        </main>
+
+    <!-- FOOTER -->
+
+        <footer class="row container-fluid col-12 bg-light border-top p-0 pt-4 m-0">
+            <div class="logo-message col-4 col-lg-3 text-muted d-none d-md-flex flex-column align-content-center">
+                <a class="nav-link text-decoration-none text-red text-uppercase d-flex justify-content-center logo" href="#">
+                    <i class="fas fa-jedi"></i>
+                    <div class="logo-text">
+                        <p class="ml-2 py-0 m-0">gamer</p>
+                        <p class="ml-2 republic">republic</p>
+                    </div>                            
+                </a>
+                <p class="text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Assumenda, architecto laborum? <br> Porro laboriosam voluptatibus corporis aliquam facilis, vero quasi architecto.
+                </p>
+            </div>
+            <section class="footer-categories col-md-4 mx-lg-3">
+                <h6 class="text-uppercase font-weight-bolder text-red border-bottom py-1">
+                    categories
+                </h6>
+                <div class="container-fluid d-flex m-0 p-0">
+                    <ul class="nav col">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Cyberpunk 2077</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">COD: BOCW</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Red Dead Redemption 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Satisfactory</a>
+                        </li>    
+                    </ul>
+                    <ul class="nav col d-flex flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">RPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">The Witcher 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Fallout 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Under Tale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Darkest Dungeon</a>
+                        </li>    
+                    </ul>
+                    <ul class="nav col d-none d-lg-flex flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey font-weight-bold p-0 pb-2">FPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Call of Duty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Bioshock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">SUPERHOT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Deus EX</a>
+                        </li>    
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-navigation d-none d-lg-flex flex-column col">
+                <h6 class="text-uppercase font-weight-bolder text-red border-bottom py-1">
+                    navigation
+                </h6>
+                <div class="container-fluid d-flex m-0 p-0">
+                    <ul class="nav col d-flex flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./search.html" class="nav-link text-grey p-0 pb-1">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Search Results</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">FAQ</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-grey p-0 pb-1">TOC</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-navigation d-none d-md-block col-md-4 col-lg my-auto mr-lg-5">
+                <div class="footer-other">
+                    <h6 class="text-uppercase text-right text-red font-weight-bolder">country</h6>
+                    <h6 class="border py-2 px-4">Brazil</h6>
+                    <h6 class="text-uppercase text-right text-red font-weight-bolder">Language</h6>
+                    <h6 class="border py-2 px-4">Brazil</h6>
+                    <h6 class="text-uppercase text-right text-red font-weight-bolder">Currency</h6>
+                    <h6 class="border py-1 px-4">Brazil</h6>
+                </div>
+            </section>
+        
+            <!-- FOOTER CREDITS -->
+
+                <div class="footer-credits border-top my-3 pt-2">
+                <p class="text-muted text-center pt-3 m-0 p-0">
+                    Made with <i class="mx-1 text-red fas fa-heart"></i> by <a class="author" href="https://github.com/VanessaAoki"> Vanessa Aoki</a>
+                </p>
+                <ul class="nav d-none d-md-flex social-bottom">
+                    <li class="nav-item d-flex justify-content-center align-items-center py-1 px-2">
+                        <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center py-1 px-2">
+                        <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center py-1 px-2">
+                        <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+                </div>
+        </footer>
+
+    <!-- END OF THE WRAPPER -->
+    </div>
+    <script src="https://kit.fontawesome.com/0348c0adc9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

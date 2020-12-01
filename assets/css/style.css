@@ -1,0 +1,206 @@
+@font-face {
+  font-family: GothamPro, custom-font;
+  src: url(GothamPro-Light.eot);
+  src: url(GothamPro-Light.woff2) format("woff2"), url(GothamPro-Light.woff) format("woff"), url(GothamPro-Light.ttf) format("truetype"), url(GothamPro-Light.svg#GothamPro-Light) format("svg"), url(GothamPro-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html,
+body,
+.wrapper {
+  width: 100vw;
+  height: auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, arial, "Lucida Grande", sans-serif;
+  color: #383838;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-red {
+  background-color: #d35266;
+}
+
+.bg-grey {
+  background-color: #888;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+.text-red {
+  color: #d35266;
+}
+
+.text-grey {
+  color: #888;
+}
+
+.text-black {
+  color: #383838;
+}
+
+.btn-red {
+  background-color: #d35266 !important;
+  margin-top: -10px;
+}
+
+.fixed-navbar {
+  z-index: 100;
+}
+
+.search-arrows {
+  z-index: 1;
+}
+
+.search-arrows a {
+  color: #d35266;
+}
+
+.logo i {
+  font-size: 35px;
+}
+
+.logo p {
+  font-family: flegrei, sans-serif;
+  font-size: 18px;
+}
+
+.logo .republic {
+  margin-top: -14px;
+}
+
+.logo-main i {
+  font-size: 65px;
+}
+
+.logo-main h1,
+.logo-main h2 {
+  font-family: flegrei, sans-serif;
+  font-size: 32px;
+}
+
+.logo-main .republic {
+  margin-top: -19px;
+}
+
+.add-icon:hover {
+  background-color: #383838;
+  color: #d35266 !important;
+}
+
+.pre-order {
+  border: 2px solid #d35266;
+  background-color: #d352650c;
+}
+
+.author {
+  color: #888;
+}
+
+.author:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+a:hover {
+  color: #d35266 !important;
+}
+
+.wrapper header {
+  font-family: GothamPro, custom-font;
+}
+
+.wrapper header nav {
+  width: 100vw;
+  height: 65px;
+}
+
+.wrapper header nav .fa-rocket {
+  font-size: 0.85em;
+}
+
+.wrapper header section {
+  width: 100vw;
+}
+
+.wrapper .social-bottom a {
+  background-color: #d35266;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #d35266;
+  color: white;
+}
+
+.wrapper .arrow-button a,
+.wrapper .arrow-button i {
+  background-color: #d35266;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #d35266;
+  color: white;
+}
+
+.wrapper .arrow-button a:hover,
+.wrapper .arrow-button i:hover {
+  background-color: white;
+  color: #d35266 !important;
+}
+
+.page-link {
+  color: #888 !important;
+  font-weight: 700;
+}
+
+.page-link:hover {
+  color: white !important;
+  background-color: #d35266 !important;
+}
+
+.footer-other {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.other-1 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-credits {
+  width: 100vw;
+  margin: 0;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOR SMALLER SCREENS */
+
+@media screen and (max-width: 544px) {
+  h6,
+  .h6 { font-size: 0.9rem; }
+
+  h5,
+  .h5 { font-size: 1rem; }
+
+  h4,
+  .h4 { font-size: 1.15rem; }
+
+  h3,
+  .h3 { font-size: 1.25rem; }
+
+  p,
+  .p { font-size: 0.8rem; }
+}
